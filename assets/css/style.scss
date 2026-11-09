@@ -6,3 +6,11 @@
 .container-lg {
   max-width: 1300px !important; /* お好みの幅に変更してください（初期値は約1012px） */
 }
+
+
+.markdown-body img {
+    max-width: 600px !important; /* お好みの最大幅 */
+    height: auto;
+    display: block;              /* 中央寄せなどにしたい場合に便利 */
+    margin: 0 auto;              /* 画像を中央揃えにする場合 */
+  }
