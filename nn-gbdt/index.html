@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<title>NNとGBDTのざっくり比較</title>
+<title>大規模NNとGBDTのざっくり比較</title>
 <script>window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
 <script charset="utf-8" src="https://cdn.plot.ly/plotly-4.1.1.min.js" integrity="sha256-O24V1F27f8pb0glCkelh3cVHLNiHAJ5gCaVtq2aNch8=" crossorigin="anonymous"></script>
 <style>
@@ -15,9 +15,10 @@ ul {margin: 0; padding: 0 0 0 25px;}
 </style>
 </head>
 <body>
+  <h1>大規模NNとGBDTのざっくり比較</h1>
 <table>
 <thead>
-<tr><th>分類</th><th>比較項目</th><th>ニューラルネットワーク (基盤モデル)</th><th>勾配ブースティング</th></tr>
+<tr><th>分類</th><th>比較項目</th><th>ニューラルネットワーク(大規模NN)</th><th>勾配ブースティング(GBDT)</th></tr>
 </thead>
 <tbody>
 <tr><td rowspan="6">概要</td><td>主に扱うデータ</td><td>表形式ではないデータ(非構造化データ)。テキスト、画像、音声、動画など。</td><td>表形式データ(構造化データ)。スプレッドシート、Excel、DBテーブル、CSV、TSVなど。</td></tr>
