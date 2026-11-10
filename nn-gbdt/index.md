@@ -12,7 +12,7 @@
   }
   .cmp th:first-child,
   .cmp td:first-child {
-    width: 30%;
+    width: 25%;
   }
   .nn-gbdt-charts {
     overflow-x: auto;
