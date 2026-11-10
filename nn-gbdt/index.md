@@ -14,9 +14,16 @@
   .cmp td:first-child {
     width: 30%;
   }
+  .nn-gbdt-charts {
+    overflow-x: auto;
+  }
+  .nn-gbdt-charts-inner {
+    width: 908px;
+    margin: 0 auto;
+  }
   .nn-gbdt-charts-labels {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 450px 450px;
     gap: 8px;
     font-weight: 600;
     text-align: center;
@@ -24,8 +31,8 @@
   }
   .nn-gbdt-charts iframe {
     display: block;
-    width: 100%;
-    aspect-ratio: 2 / 1;
+    width: 908px;
+    height: 450px;
     border: none;
   }
 </style>
@@ -108,10 +115,12 @@
 
 ## 学習のビジュアルイメージ
 
-<div class="nn-gbdt-charts-labels">
-  <div>大規模NN</div>
-  <div>GBDT</div>
-</div>
 <div class="nn-gbdt-charts">
-  <iframe src="./charts.html" title="NNとGBDTの学習のビジュアルイメージ" loading="lazy"></iframe>
+  <div class="nn-gbdt-charts-inner">
+    <div class="nn-gbdt-charts-labels">
+      <div>大規模NN</div>
+      <div>GBDT</div>
+    </div>
+    <iframe src="./charts.html" title="NNとGBDTの学習のビジュアルイメージ" loading="lazy"></iframe>
+  </div>
 </div>

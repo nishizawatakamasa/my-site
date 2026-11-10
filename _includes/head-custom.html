@@ -1,0 +1,13 @@
+{% include head-custom-google-analytics.html %}
+<style>
+  /* 短いページと長いページで縦スクロールバーの有無が違い、中央カラムが数pxずれるのを防ぐ */
+  html {
+    overflow-y: scroll;
+  }
+  @supports (scrollbar-gutter: stable) {
+    html {
+      overflow-y: auto;
+      scrollbar-gutter: stable;
+    }
+  }
+</style>
