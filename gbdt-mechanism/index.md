@@ -1,7 +1,7 @@
 <style>
   /* 2. 画像の最大幅を制限して巨大化を防ぐ */
   .markdown-body img {
-    width: 80% !important;
+    max-width: 800px !important;
     height: auto;
     display: block;
     margin: 1.5em auto; /* 画像を中央揃えにして上下に少し隙間を作る */
